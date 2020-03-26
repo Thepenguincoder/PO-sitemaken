@@ -28,6 +28,24 @@ html, body {
   height: 10vw;
 }
 
+.top-nav-2 ul {
+  font-size: 2vw;
+}
+
+  .top-nav-2 a {
+    margin: 0vw 0vw 0vw 2vw;
+    height: 5vw;
+    float: left;
+    display: block;
+    border-radius: 5px;
+    background-color: lightblue;
+    color: black;
+    font-size: 3vw;
+    text-align: justify;
+    text-decoration: none;
+    padding: 1vw 2vw 0vw 2vw;
+}
+
 .page-content {
   background-color: darkturquoise;
   width: 100vw;
