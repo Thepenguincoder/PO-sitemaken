@@ -90,3 +90,23 @@ html, body {
   padding-bottom: 2vw;
   border-radius: 5px;
 }
+
+h1 {
+  color: black;
+  border-bottom: 2px solid;
+  padding: 0vw 2vw 2vw 2vw;
+}
+
+h2 {
+  background-color:lightskyblue;
+  padding: 2vw;
+}
+
+p{
+  padding: 0vw 2vw;
+}
+
+iframe {
+  width: 71vw;
+  height: 35.5vw;
+}
