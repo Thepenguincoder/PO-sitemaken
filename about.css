@@ -109,3 +109,34 @@ ol {
 ol ul {
   list-style-type: square;
 }
+
+.table {
+  overflow: auto;
+  margin: 0vw 2vw 2vw 2vw;
+  width: 86vw;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+caption {
+  padding: 1vw;
+  background-color: #555;
+  color: white;
+  font-weight: bold;
+}
+
+td, th {
+  padding: 1vw;
+  text-align: left;
+}
+
+th {
+  background-color: #777;
+  color: white;
+}
+
+td {
+  background-color: #eee;
+}
