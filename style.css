@@ -126,3 +126,68 @@ iframe {
     border: 0.5vw solid black;
     border-radius: 5px;
 }
+
+@media (max-width: 500px) {
+  
+.nav-header {
+  height: 20vw;
+  margin-top: -20vw; 
+}
+
+.top-nav-1 {
+  height: 20vw;
+}
+  .logo {
+    width: 20vw;
+    height: 10vw;
+    margin: 5vw 0vw 5vw 0vw;
+  }
+
+  .top-nav-2 a {
+    margin: 3vw 0vw 5vw 2vw;
+    height: 7.5vw;
+    font-size: 5vw;
+    padding: 2.25vw 2vw 0vw 2vw;
+}
+
+.page-content {
+  margin-top: 20vw;
+}
+
+.page-nav {
+  width: 90vw;
+  Height: 30vw;
+  margin-left: 5vw;
+}
+
+  .page-nav ul {
+    padding: 2vw 0vw 0vw 2vw;
+  }
+
+    .page-nav ul li a {
+      font-size: 5vw;
+      display: block;
+      height: 6vw;
+}
+
+.article-home {
+  margin-left: 5vw;
+  margin-top: 33vw;
+  width: 90vw;
+}
+
+iframe {
+  width: 84vw;
+  height: 42vw;
+}
+
+.nav-footer {
+  height: 20vw;
+}
+
+  .partner-logo {
+    height: 8vw;
+    width: 32vw;
+    margin: 5.5vw 0vw 0vw 33.5vw;
+}
+}
