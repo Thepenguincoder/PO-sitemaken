@@ -55,3 +55,38 @@ html, body {
   padding-bottom: 3vw;
   height: 100%;
 }
+
+.page-nav {
+  display: block;
+  border-radius: 5px;
+  background-color: darkcyan;
+  float: left;
+  position: absolute;
+  width: 16vw;
+  margin-left: 2vw;
+}
+
+  .page-nav ul {
+    list-style-type: none;
+    font-size: 2vw;
+    padding-left: 1.5vw;
+  }
+
+    .page-nav ul li {
+      line-height: 200%;
+    }
+
+      .page-nav ul li a {
+          text-decoration: none;
+          font-weight: bold;
+          color: black;
+}
+
+.article-home {
+  background-color:aquamarine;
+  margin-left: 20vw;
+  padding-top: 1vw;
+  width: 75vw;
+  padding-bottom: 2vw;
+  border-radius: 5px;
+}
