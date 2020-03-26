@@ -4,3 +4,36 @@ html, body {
   padding: 0;
   margin: 0;
  }
+
+.nav-header {
+  background-image: url(https://www.warehousetotaal.nl/wp-content/uploads/2018/03/Machine-learning2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 10vw;
+  margin-top: -10vw; 
+  position: fixed;
+  z-index: 2;
+}
+
+.top-nav-1 {
+  float: left;
+  width: 20vw;
+  height: 10vw;
+  background-color: grey;
+}
+  .logo {
+  width: 20vw;
+  height: 10vw;
+}
+
+.page-content {
+  background-color: darkturquoise;
+  width: 100vw;
+  min-height: 100vh;
+  margin-top: 10vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  height: 100%;
+}
