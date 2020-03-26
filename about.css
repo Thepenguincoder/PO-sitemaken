@@ -100,50 +100,12 @@ p {
     border-radius: 5px;
 }
 
-@media (max-width: 500px) {
-  
-.nav-header {
-  height: 20vw;
-  margin-top: -20vw; 
+ol {
+  list-style-type: upper-roman;
+  overflow: auto;
+  margin-right: 2vw;
 }
 
-.top-nav-1 {
-  height: 20vw;
-}
-  .logo {
-    width: 20vw;
-    height: 10vw;
-    margin: 5vw 0vw 5vw 0vw;
-  }
-
-  .top-nav-2 a {
-    margin: 3vw 0vw 5vw 2vw;
-    height: 7.5vw;
-    font-size: 5vw;
-    padding: 2.25vw 2vw 0vw 2vw;
-}
-
-.page-content {
-  margin-top: 20vw;
-}
-
-  .article-home {
-    margin-left: 5vw;
-    margin-top: 2vw;
-    width: 90vw;
-  }
-
-  .nav-footer {
-    height: 20vw;
-  }
-
-  .notice {
-    height: 8vw;
-    width: 32vw;
-    margin: 5.5vw 0vw 0vw 33.5vw;
-}
-
-td, th, caption {
-  padding: 1vw 2vw 2vw 2vw;
-}
+ol ul {
+  list-style-type: square;
 }
