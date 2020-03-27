@@ -32,9 +32,13 @@ html, body {
   width: 20vw;
   height: 10vw;
 }
-  
+
+.top-nav-2 ul {
+  font-size: 2vw;
+}
+
 .top-nav-2 a {
-  margin: 0vw 0vw 2.5vw 2vw;
+  margin: 0vw 0vw 0vw 2vw;
   height: 5vw;
   float: left;
   display: block;
@@ -45,7 +49,6 @@ html, body {
   text-align: justify;
   text-decoration: none;
   padding: 1vw 2vw 0vw 2vw;
-  position:relative;
 }
 
 .page-content {
