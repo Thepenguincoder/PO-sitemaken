@@ -3,6 +3,7 @@ html, body {
   font-family: Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
  }
 
 .nav-header {
@@ -23,7 +24,8 @@ html, body {
   height: 10vw;
   background-color: grey;
 }
-  .logo {
+
+.logo {
   width: 20vw;
   height: 10vw;
 }
@@ -32,18 +34,18 @@ html, body {
   font-size: 2vw;
 }
 
-  .top-nav-2 a {
-    margin: 0vw 0vw 0vw 2vw;
-    height: 5vw;
-    float: left;
-    display: block;
-    border-radius: 5px;
-    background-color: lightblue;
-    color: black;
-    font-size: 3vw;
-    text-align: justify;
-    text-decoration: none;
-    padding: 1vw 2vw 0vw 2vw;
+.top-nav-2 a {
+  margin: 0vw 0vw 0vw 2vw;
+  height: 5vw;
+  float: left;
+  display: block;
+  border-radius: 5px;
+  background-color: lightblue;
+  color: black;
+  font-size: 3vw;
+  text-align: justify;
+  text-decoration: none;
+  padding: 1vw 2vw 0vw 2vw;
 }
 
 .page-content {
@@ -66,26 +68,26 @@ html, body {
   margin-left: 2vw;
 }
 
-  .page-nav ul {
-    list-style-type: none;
-    font-size: 2vw;
-    padding-left: 1.5vw;
-  }
+.page-nav ul {
+  list-style-type: none;
+  font-size: 2vw;
+  padding-left: 1.5vw;
+}
 
-    .page-nav ul li {
-      line-height: 200%;
-    }
+.page-nav ul li {
+  line-height: 200%;
+}
 
-      .page-nav ul li a {
-          text-decoration: none;
-          font-weight: bold;
-          color: black;
+.page-nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
 }
 
 .article-home {
-  background-color:aquamarine;
+  background-color:#C03F8E;
   margin-left: 20vw;
-  padding-top: 1vw;
+  padding-top: 2vw;
   width: 75vw;
   padding-bottom: 2vw;
   border-radius: 5px;
@@ -94,12 +96,14 @@ html, body {
 h1 {
   color: black;
   border-bottom: 2px solid;
-  padding: 0vw 2vw 2vw 2vw;
+  padding: 2vw 2vw 1vw 2vw;
+  margin: 0;
 }
 
 h2 {
-  background-color:lightskyblue;
+  background-color:rgb(107, 9, 172);
   padding: 2vw;
+  margin:0;
 }
 
 p{
@@ -112,19 +116,19 @@ iframe {
 }
 
 .nav-footer {
-  background-color: lightseagreen;
+  background-color: darkcyan;
   width: 100%;
   height: 10vw;
   position:relative;
 }
 
-  .notice {
-    height: 5vw;
-    width: 20vw;
-    margin-top: 2vw;
-    margin-left: 39.5vw;
-    border: 0.5vw solid black;
-    border-radius: 5px;
+.notice {
+  height: 5vw;
+  width: 20vw;
+  margin-top: 2vw;
+  margin-left: 39.5vw;
+  border: 0.5vw solid black;
+  border-radius: 5px;
 }
 
 @media (max-width: 500px) {
@@ -137,17 +141,17 @@ iframe {
 .top-nav-1 {
   height: 20vw;
 }
-  .logo {
-    width: 20vw;
-    height: 10vw;
-    margin: 5vw 0vw 5vw 0vw;
-  }
+.logo {
+  width: 20vw;
+  height: 10vw;
+  margin: 5vw 0vw 5vw 0vw;
+}
 
-  .top-nav-2 a {
-    margin: 3vw 0vw 5vw 2vw;
-    height: 7.5vw;
-    font-size: 5vw;
-    padding: 2.25vw 2vw 0vw 2vw;
+.top-nav-2 a {
+  margin: 3vw 0vw 5vw 2vw;
+  height: 7.5vw;
+  font-size: 5vw;
+  padding: 2.25vw 2vw 0vw 2vw;
 }
 
 .page-content {
@@ -160,14 +164,14 @@ iframe {
   margin-left: 5vw;
 }
 
-  .page-nav ul {
-    padding: 2vw 0vw 0vw 2vw;
-  }
+.page-nav ul {
+  padding: 2vw 0vw 0vw 2vw;
+}
 
-    .page-nav ul li a {
-      font-size: 5vw;
-      display: block;
-      height: 6vw;
+.page-nav ul li a {
+  font-size: 5vw;
+  display: block;
+  height: 6vw;
 }
 
 .article-home {
@@ -185,9 +189,9 @@ iframe {
   height: 20vw;
 }
 
-  .notice {
-    height: 8vw;
-    width: 32vw;
-    margin: 5.5vw 0vw 0vw 33.5vw;
+.notice {
+  height: 8vw;
+  width: 32vw;
+  margin: 5.5vw 0vw 0vw 33.5vw;
 }
 }
